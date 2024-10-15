@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio Jonatas - Contato</title>
+  <link rel="stylesheet" href="/css/estilo.css" />
+  <script src="/js/script.js" defer></script>
+  <style>
+    body {
+  background-image: url('/imagens/game-of-thrones-jon-snow-digital-art-fantasy-art-wallpaper-preview.jpg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Faz a imagem cobrir toda a área */
+  background-position: top center; /* Ajusta a posição para o topo */
+  color: white; /* Cor do texto */
+}
+
+
+   
+   
+   /* Estilo personalizado para o nome Meu Portfólio centralizado */
+    header {
+      text-align: center; /* Centralizando o conteúdo do cabeçalho */
+      margin-bottom: 30px; /* Espaço entre o cabeçalho e o restante da página */
+    }
+    header h1 {
+      font-size: 3em; /* Aumenta o tamanho da fonte */
+      color: #2c3e50; /* Cor azul-escuro */
+      font-weight: bold; /* Negrito */
+      text-transform: uppercase; /* Texto em letras maiúsculas */
+      letter-spacing: 2px; /* Espaçamento entre letras */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra leve no texto */
+      margin-bottom: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none; /* Remove o sublinhado dos links */
+      font-size: 1.2em;
+      color: #3498db; /* Cor azul para os links */
+    }
+
+    nav ul {
+      list-style: none; /* Remove as bolinhas da lista */
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline; /* Deixa os itens da lista em linha */
+      margin: 0 15px; /* Espaçamento entre os itens */
+    }
+
+     /* Estilo para os links do portfólio */
+     a {
+      color: #007BFF; /* Cor azul mais visível */
+      text-decoration: none; /* Remove o sublinhado */
+    }
+    a:hover {
+      color: #0056b3; /* Muda a cor ao passar o mouse */
+      text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    }
+
+    /* Estilo para a seção de contato */
+    .dark-section {
+      text-align: center; /* Centralizando textos na seção */
+    }
+
+    form {
+      display: inline-block; /* Para centralizar o formulário */
+      max-width: 400px; /* Largura máxima do formulário */
+      margin: 20px auto; /* Centralizando o formulário */
+      text-align: left; /* Mantendo os rótulos do formulário à esquerda */
+    }
+
+    label {
+      display: block; /* Cada rótulo em uma nova linha */
+      margin-top: 10px; /* Espaço entre rótulos */
+    }
+
+    input, textarea, button {
+      width: 100%; /* Fazendo os campos ocuparem 100% da largura do formulário */
+      margin-top: 5px; /* Espaço acima dos campos */
+      padding: 10px; /* Espaço interno dos campos */
+      border: 1px solid #ccc; /* Borda padrão */
+      border-radius: 4px; /* Bordas arredondadas */
+    }
+
+    button {
+      background-color: #28a745; /* Cor do botão */
+      color: white; /* Cor do texto no botão */
+      border: none; /* Sem borda */
+      cursor: pointer; /* Mão ao passar o mouse */
+    }
+
+    button:hover {
+      background-color: #218838; /* Cor do botão ao passar o mouse */
+    }
+
+    /* Estilo para o ícone do WhatsApp */
+    .whatsapp-logo {
+      width: 40px; /* Tamanho do ícone */
+      vertical-align: middle; /* Alinhamento com o texto */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meu Portfólio</h1> <!-- Nome alterado e centralizado -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="contato" class="dark-section">
+      <h2>Contato</h2>
+      <p>Você pode entrar em contato comigo através do WhatsApp:</p>
+      <p>
+        <a href="https://wa.link/noko87" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo" class="whatsapp-logo" />
+          Enviar Mensagem
+        </a>
+      </p>
+      
+      <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Jonatas - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
